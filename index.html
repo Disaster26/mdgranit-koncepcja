@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MD Granit - kostka, krawężniki, schody i parapety z granitu | Łódź</title>
+<meta name="description" content="Wyroby z granitu strzegomskiego: kostka, krawężniki, oporniki, płyty, schody, parapety, kamień ogrodowy i murowy. Punkt sprzedaży w Łodzi, dostawa w całej Polsce.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-490.webp" media="(max-width:700px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1440.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1440.webp 1440w, img/hero-1720.webp 1720w" imagesizes="100vw" media="(min-width:701px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/hanken-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:Hanken;src:url(fonts/hanken-rdzen.woff2) format("woff2");font-weight:100 900;font-display:swap;unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B2,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+2192}
+@font-face{font-family:Hanken;src:url(fonts/hanken-pl.woff2) format("woff2");font-weight:100 900;font-display:swap;unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Hanken fb";src:local("Arial");size-adjust:98%}
+:root{--czarny:#0B0B0C;--grafit:#1C1E21;--tekst:#2A2D31;--szary:#5B6066;--linia:#DADDE1;--jasny:#F0F2F4;--bialy:#fff;--czerwony:#EF0000;--czerwony-btn:#D10000;--kontener:1240px;--m:clamp(16px,4vw,48px)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:#fff;color:var(--tekst);font:400 17px/1.6 Hanken,"Hanken fb",Arial,sans-serif;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{color:var(--czarny);font-weight:800;letter-spacing:-.025em;line-height:1.08;margin:0}
+h2{font-size:clamp(30px,4.2vw,52px)}
+h3{font-size:20px;letter-spacing:-.015em;line-height:1.2}
+p{margin:0}
+.wrap{width:min(100% - 2*var(--m),var(--kontener));margin-inline:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 28px;background:var(--czerwony-btn);color:#fff;font:700 17px/1 Hanken,"Hanken fb",Arial,sans-serif;text-decoration:none;border:0;border-radius:2px;cursor:pointer;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 1px 0 rgba(0,0,0,.25);transition:background .18s}
+.btn:hover{background:#A80000}
+.btn:focus-visible,a:focus-visible,button:focus-visible{outline:3px solid var(--czerwony);outline-offset:3px}
+.btn-c{background:var(--czarny)}
+.btn-c:hover{background:#2c2f33}
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--linia)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:63px;gap:24px}
+.logo{display:block;color:var(--czarny);line-height:0}
+.logo svg{height:44px;width:auto}
+.nav{display:flex;align-items:center;gap:30px}
+.nav a{text-decoration:none;font-weight:600;font-size:16px;color:var(--tekst);padding:6px 0;border-bottom:2px solid transparent}
+.nav a:hover{border-color:var(--czerwony)}
+.tel{display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-weight:800;font-size:18px;color:var(--czarny);letter-spacing:-.01em}
+.tel svg{width:20px;height:20px;flex:none}
+.burger{display:none;width:46px;height:46px;border:0;background:none;padding:11px;cursor:pointer}
+.burger span{display:block;height:3px;background:var(--czarny);margin:5px 0;transition:transform .2s,opacity .2s}
+.top.otw .burger span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+.top.otw .burger span:nth-child(2){opacity:0}
+.top.otw .burger span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+.mtel{display:none}
+@media (max-width:980px){
+  .nav{position:fixed;inset:64px 0 auto 0;flex-direction:column;align-items:stretch;gap:0;background:#fff;border-bottom:1px solid var(--linia);padding:8px var(--m) 22px;transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .18s,transform .18s,visibility .18s}
+  .top.otw .nav{opacity:1;visibility:visible;transform:none}
+  .nav a{font-size:20px;padding:13px 0;border-bottom:1px solid var(--linia);line-height:1.45}
+  .nav .tel{display:none}
+  .burger{display:block}
+  .mtel{display:inline-flex;width:46px;height:46px;align-items:center;justify-content:center;color:var(--czarny);margin-left:auto}
+  .mtel svg{width:22px;height:22px}
+  .top .wrap{gap:4px}
+  .logo svg{height:36px}
+}
+/* hero: blok granitu przeciety jak w logo */
+.hero{position:relative;color:#fff;display:flex;flex-direction:column;min-height:calc(100svh - 64px);background:#3a3d40;isolation:isolate}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.hero picture img{object-position:50% 60%}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(8,9,10,.10) 0%,rgba(8,9,10,.18) 35%,rgba(8,9,10,.66) 68%,rgba(8,9,10,.80) 100%)}
+.hero-gora{flex:1;display:flex;align-items:flex-end;padding:48px 0 44px}
+.hero h1{color:#fff;font-size:clamp(36px,5.6vw,76px);max-width:17ch;letter-spacing:-.035em;line-height:1.02}
+.hero .lead{margin-top:20px;font-size:clamp(17px,1.45vw,21px);line-height:1.55;max-width:50ch;color:rgba(255,255,255,.92)}
+.hero .btn{margin-top:30px}
+.rzaz{height:10px;background:#fff;position:relative}
+.hero-dol{padding:16px 0 18px;background:rgba(8,9,10,.55);font-weight:600;font-size:15px;line-height:1.45}
+.hero-dol .wrap{display:flex;flex-wrap:wrap;gap:6px 34px}
+.hero-dol span{display:inline-flex;gap:10px;align-items:baseline}
+.hero-dol b{color:#fff}
+.hero-dol i{font-style:normal;color:rgba(255,255,255,.72)}
+@media (max-width:700px){
+  .hero picture img{object-position:50% 50%}
+  .hero::before{background:linear-gradient(180deg,rgba(8,9,10,0) 0%,rgba(8,9,10,.1) 28%,rgba(8,9,10,.72) 60%,rgba(8,9,10,.86) 100%)}
+  .hero-gora{padding:36px 0 28px}
+  .hero h1{font-size:clamp(33px,9.4vw,40px)}
+  .hero .lead{font-size:16.5px;margin-top:14px}
+  .hero .btn{margin-top:24px;width:100%}
+  .rzaz{height:7px}
+  .hero-dol{font-size:14px;padding:12px 0 14px}
+  .hero-dol .wrap{flex-direction:column;gap:2px}
+}
+@media (min-width:701px) and (max-height:780px){.hero h1{font-size:clamp(34px,4.6vw,58px)}.hero-gora{padding:32px 0}}
+/* sekcje */
+.sek{padding:clamp(64px,8vw,120px) 0}
+.sek-j{background:var(--jasny)}
+.naglowek{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:20px 64px;align-items:end;margin-bottom:clamp(32px,4vw,56px)}
+.naglowek p{color:var(--szary);font-size:18px;max-width:52ch}
+@media (max-width:800px){.naglowek{grid-template-columns:minmax(0,1fr)}.naglowek p{font-size:17px}}
+/* oferta */
+.siatka{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 22px}
+.wyrob{display:flex;flex-direction:column;text-decoration:none;color:inherit;min-width:0}
+.wyrob .fot{position:relative;aspect-ratio:4/3;overflow:hidden;background:#cfd2d5}
+.wyrob .fot img{width:100%;height:100%;object-fit:cover;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.wyrob .fot::after{content:"";position:absolute;left:0;right:0;top:80%;height:5px;background:#fff}
+.wyrob:hover .fot img{transform:scale(1.04)}
+.wyrob h3{margin-top:16px}
+.wyrob p{margin-top:6px;color:var(--szary);font-size:15.5px;line-height:1.5}
+.wyrob .kol{margin-top:10px;font-size:14px;font-weight:600;color:var(--tekst)}
+.wyrob .dalej{margin-top:12px;font-weight:700;font-size:15px;color:var(--czerwony-btn)}
+@media (max-width:1060px){.siatka{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.siatka{gap:26px 14px}.wyrob h3{font-size:17px;margin-top:12px}.wyrob p{font-size:14.5px}.wyrob .kol{font-size:13px}}
+/* kostka tabela */
+.kostka{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(32px,5vw,80px);align-items:center}
+.kostka .zdj{position:relative;aspect-ratio:720/547;overflow:hidden}
+.kostka .zdj img{width:100%;height:100%;object-fit:cover}
+.kostka .zdj::after{content:"";position:absolute;left:0;right:0;top:24%;height:8px;background:var(--jasny)}
+.tab{margin-top:30px;border-top:2px solid var(--czarny)}
+.wiersz{display:grid;grid-template-columns:110px minmax(0,1fr) 120px;gap:18px;padding:20px 0;border-bottom:1px solid var(--linia);align-items:baseline}
+.wiersz .r{font-weight:800;font-size:30px;letter-spacing:-.03em;color:var(--czarny)}
+.wiersz .z{color:var(--tekst);font-size:16px;line-height:1.5}
+.wiersz .w{text-align:right;font-weight:700;font-size:17px;color:var(--czarny);white-space:nowrap}
+.wiersz .w small{display:block;font-weight:500;font-size:12.5px;color:var(--szary)}
+.tab-op{margin-top:16px;font-size:14.5px;color:var(--szary)}
+@media (max-width:860px){.kostka{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:520px){.wiersz{grid-template-columns:72px minmax(0,1fr);gap:4px 14px}.wiersz .r{font-size:24px;grid-row:span 2}.wiersz .w{text-align:left;font-size:15px}.wiersz .w small{display:inline;margin-left:6px}}
+/* ciemna: od bloku */
+.blok{background:var(--grafit);color:#D9DCDF;position:relative}
+.blok h2{color:#fff}
+.blok-siatka{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,6vw,96px);align-items:center}
+.blok .zdj{position:relative;aspect-ratio:4/5;overflow:hidden}
+.blok .zdj img{width:100%;height:100%;object-fit:cover}
+.blok .zdj::after{content:"";position:absolute;left:0;right:0;top:30%;height:8px;background:var(--grafit)}
+.blok p.l{margin-top:22px;font-size:18.5px;line-height:1.6;color:#C9CDD1;max-width:48ch}
+.etapy{margin:36px 0 0;padding:0;list-style:none;border-top:1px solid rgba(255,255,255,.16)}
+.etapy li{display:grid;grid-template-columns:150px minmax(0,1fr);gap:18px;padding:18px 0;border-bottom:1px solid rgba(255,255,255,.16)}
+.etapy b{color:#fff;font-size:19px;font-weight:800;letter-spacing:-.01em}
+.etapy span{color:#BFC4C9;font-size:16px;line-height:1.5}
+@media (max-width:860px){.blok-siatka{grid-template-columns:minmax(0,1fr)}.blok .zdj{aspect-ratio:16/11}.etapy li{grid-template-columns:minmax(0,1fr);gap:2px}}
+/* wykonczenia */
+.wyk{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.wyk figure{margin:0}
+.wyk .tx{position:relative;aspect-ratio:5/4;overflow:hidden}
+.wyk .tx img{width:100%;height:100%;object-fit:cover}
+.wyk .tx::after{content:"";position:absolute;left:0;right:0;bottom:0;height:22%;border-top:5px solid #fff;background:inherit}
+.wyk h3{margin-top:16px}
+.wyk p{margin-top:6px;font-size:15.5px;color:var(--szary);line-height:1.5}
+.wyk-op{margin-top:30px;color:var(--szary);font-size:15.5px}
+@media (max-width:1000px){.wyk{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:480px){.wyk{gap:22px 14px}.wyk h3{font-size:17px}.wyk p{font-size:14.5px}}
+/* galeria */
+.pas-wrap{width:calc(100% - 2*clamp(16px,3vw,56px));max-width:1800px;margin-inline:auto;position:relative}
+.pas{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 3*14px)/4);gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;cursor:grab;overscroll-behavior-x:contain}
+.pas::-webkit-scrollbar{display:none}
+.pas.ciag{cursor:grabbing;scroll-snap-type:none}
+.pas button{all:unset;display:block;scroll-snap-align:start;cursor:zoom-in;aspect-ratio:4/3;overflow:hidden;background:#cfd2d5}
+.pas img{width:100%;height:100%;object-fit:cover;pointer-events:none;transition:transform .45s}
+.pas button:hover img{transform:scale(1.03)}
+.pas button:focus-visible{outline:3px solid var(--czerwony);outline-offset:-3px}
+.strz{display:flex;gap:10px;align-items:center}
+.strz button{width:52px;height:52px;border:1.5px solid var(--czarny);background:#fff;cursor:pointer;display:grid;place-items:center;border-radius:2px}
+.strz button:disabled{opacity:.3;cursor:default}
+.strz svg{width:20px;height:20px}
+.licz{font-weight:700;font-size:15px;color:var(--szary);min-width:56px}
+.gal-gora{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:28px}
+.gal-gora p{color:var(--szary);margin-top:12px}
+@media (max-width:1100px){.pas{grid-auto-columns:calc((100% - 2*14px)/3)}}
+@media (max-width:700px){.pas{grid-auto-columns:82%;gap:10px}.gal-gora{flex-direction:column;align-items:flex-start}.strz{display:none}}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(8,9,10,.94);display:none;align-items:center;justify-content:center;touch-action:pan-y}
+.lb.on{display:flex}
+.lb img{max-width:min(94vw,1400px);max-height:84vh;width:auto;height:auto;object-fit:contain}
+.lb button{position:absolute;width:56px;height:56px;border:0;background:rgba(255,255,255,.1);color:#fff;cursor:pointer;display:grid;place-items:center;border-radius:2px}
+.lb button:hover{background:rgba(255,255,255,.22)}
+.lb svg{width:24px;height:24px}
+.lb .x{top:14px;right:14px}.lb .p{left:14px;top:50%;margin-top:-28px}.lb .n{right:14px;top:50%;margin-top:-28px}
+.lb .ll{position:absolute;bottom:18px;left:0;right:0;text-align:center;color:#cfd3d7;font-size:14px}
+@media (max-width:700px){.lb .p,.lb .n{top:auto;bottom:10px;margin:0}.lb .ll{bottom:28px}}
+/* podstrony */
+.mapa{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(32px,6vw,96px);align-items:start}
+.mapa p.l{margin-top:20px;color:var(--szary);font-size:18px;max-width:46ch}
+.mapa .co{margin-top:26px;padding:0;list-style:none}
+.mapa .co li{padding:8px 0 8px 22px;position:relative;font-size:16.5px}
+.mapa .co li::before{content:"";position:absolute;left:0;top:19px;width:12px;height:3px;background:var(--czerwony)}
+.drzewo{border-top:2px solid var(--czarny);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px}
+.drzewo div{padding:15px 0;border-bottom:1px solid var(--linia);min-width:0}
+.drzewo b{display:block;font-size:17px;font-weight:700;color:var(--czarny)}
+.drzewo code{font:500 13.5px/1.4 Hanken,Arial,sans-serif;color:var(--szary);word-break:break-all}
+.drzewo .gl{grid-column:1/-1}
+@media (max-width:860px){.mapa{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:460px){.drzewo{grid-template-columns:minmax(0,1fr)}}
+/* kontakt i formularz */
+.kontakt{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(32px,6vw,90px);align-items:start}
+.dane{margin-top:28px;display:grid;gap:22px}
+.dane div{border-top:1px solid var(--linia);padding-top:14px}
+.dane small{display:block;font-size:14px;color:var(--szary);margin-bottom:4px}
+.dane a,.dane b{font-weight:700;color:var(--czarny);text-decoration:none;font-size:18px}
+.dane a.duzy{font-size:28px;letter-spacing:-.02em;font-weight:800}
+.dane p{font-size:16px;line-height:1.5}
+.mapka{margin-top:28px;aspect-ratio:16/10;background:#dfe2e5;position:relative;overflow:hidden}
+.mapka iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.mapka span{position:absolute;inset:0;display:grid;place-items:center;color:var(--szary);font-size:14px}
+form.zap{background:#fff;padding:clamp(22px,3vw,44px);border-top:6px solid var(--czarny);box-shadow:0 1px 0 var(--linia)}
+.zap h3{font-size:26px}
+.zap .opis{margin-top:8px;color:var(--szary);font-size:15.5px}
+.pola{margin-top:24px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.pole{display:flex;flex-direction:column;gap:7px;min-width:0}
+.pole.c{grid-column:1/-1}
+.pole label{font-weight:700;font-size:15px;color:var(--czarny)}
+.pole input,.pole select,.pole textarea{font:inherit;font-size:16px;color:var(--tekst);padding:13px 14px;border:1.5px solid #C4C8CD;border-radius:2px;background:#fff;width:100%;min-width:0}
+.pole textarea{min-height:120px;resize:vertical;line-height:1.5}
+.pole input:focus,.pole select:focus,.pole textarea:focus{outline:none;border-color:var(--czarny);box-shadow:0 0 0 3px rgba(239,0,0,.18)}
+.plik{position:relative;border:1.5px dashed #9EA4AA;padding:18px;display:flex;gap:14px;align-items:center;cursor:pointer;background:var(--jasny)}
+.plik:hover,.plik.nad{border-color:var(--czarny)}
+.plik input{position:absolute;inset:0;opacity:0;cursor:pointer}
+.plik svg{width:30px;height:30px;flex:none;color:var(--czarny)}
+.plik b{display:block;font-size:15.5px;color:var(--czarny)}
+.plik small{color:var(--szary);font-size:13.5px}
+.lista{font-size:14px;color:var(--tekst);margin-top:6px}
+.zgoda{grid-column:1/-1;display:flex;gap:12px;align-items:flex-start;font-size:14px;color:var(--szary);line-height:1.5}
+.zgoda input{width:20px;height:20px;margin:1px 0 0;flex:none;accent-color:var(--czerwony-btn)}
+.wyslij{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:14px 20px;align-items:center}
+.info{display:none;grid-column:1/-1;padding:14px 16px;background:var(--jasny);border-left:4px solid var(--czarny);font-size:15px}
+.info.on{display:block}
+@media (max-width:900px){.kontakt{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:560px){.pola{grid-template-columns:minmax(0,1fr)}.wyslij .btn{width:100%}}
+/* stopka */
+.stopka{background:var(--jasny);border-top:1px solid var(--linia);padding:56px 0 26px;color:var(--szary);font-size:15px}
+.st-siatka{display:grid;grid-template-columns:minmax(0,1.3fr) repeat(3,minmax(0,1fr));gap:28px 32px}
+.stopka h4{margin:0 0 12px;font-size:15px;color:var(--czarny);font-weight:800}
+.stopka ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:var(--czarny)}
+.stopka .logo svg{height:44px}
+.stopka .o{margin-top:14px;max-width:34ch;line-height:1.55}
+.st-dol{color:#3F4449;margin-top:40px;padding-top:18px;border-top:1px solid var(--linia);display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between;align-items:center;font-size:14px}
+@media (max-width:900px){.st-siatka{grid-template-columns:repeat(2,minmax(0,1fr))}.st-siatka>div:first-child{grid-column:1/-1}}
+/* pasek mobilny */
+.mob{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;grid-template-columns:1fr 1.4fr;gap:8px;padding:8px 10px calc(8px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--linia);transform:translateY(110%);transition:transform .25s}
+.mob a{min-height:48px;font-size:16px;padding:0 10px}
+.mob.widac{transform:none}
+@media (max-width:700px){.mob{display:grid}body{padding-bottom:0}}
+.ukryj{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="MD Granit - strona główna"><svg viewBox="0 0 282 118" role="img" aria-label="MD Granit"><defs><mask id="ciecie1" maskUnits="userSpaceOnUse"><rect width="282" height="118" fill="#fff"/><rect x="30" y="49" width="260" height="20" fill="#000"/></mask></defs><text transform="translate(25 117) rotate(-90)" font-family="Hanken,Arial,sans-serif" font-weight="300" font-size="31" textLength="116" lengthAdjust="spacingAndGlyphs" fill="currentColor">GRANIT</text><g mask="url(#ciecie1)"><path fill="currentColor" d="M38 1H165V117H139V24L115 117H88L64 24V117H38Z"/><path fill="#EF0000" fill-rule="evenodd" d="M178 1H226A54 58 0 0 1 226 117H178ZM209 29V91H222A23 31 0 0 0 222 29Z"/></g></svg></a>
+    <a class="mtel" href="tel:+48537170170" aria-label="Zadzwoń: 537 170 170"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="miter"><path d="M5 3h4l1.6 4.8-2.4 1.6a12 12 0 0 0 6.4 6.4l1.6-2.4L21 15v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg></a>
+    <nav class="nav" id="nav" aria-label="Menu główne">
+      <a href="#oferta">Oferta</a>
+      <a href="#kostka">Kostka granitowa</a>
+      <a href="#wykonczenia">Wykończenia</a>
+      <a href="#realizacje">Realizacje</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="tel" href="tel:+48537170170"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 3h4l1.6 4.8-2.4 1.6a12 12 0 0 0 6.4 6.4l1.6-2.4L21 15v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>537 170 170</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="h1">
+  <picture>
+    <source media="(max-width:700px)" srcset="img/hero-m-490.webp" width="490" height="1000">
+    <img src="img/hero-1440.webp" srcset="img/hero-1024.webp 1024w, img/hero-1440.webp 1440w, img/hero-1720.webp 1720w" sizes="100vw" width="1720" height="1272" alt="Podjazd z szarej kostki granitowej przy domu jednorodzinnym" fetchpriority="high" decoding="async">
+  </picture>
+  <div class="hero-gora">
+    <div class="wrap">
+      <h1 id="h1">Granit ze Strzegomia, przycięty pod Twoją inwestycję</h1>
+      <p class="lead">Kostka, krawężniki, oporniki, płyty, schody, parapety oraz kamień ogrodowy i murowy. Wymiary standardowe i na zamówienie, dostawa pod wskazany adres w całej Polsce.</p>
+      <a class="btn" id="hero-cta" href="#kontakt">Zapytaj o wycenę</a>
+    </div>
+  </div>
+  <div class="rzaz" aria-hidden="true"></div>
+  <div class="hero-dol">
+    <div class="wrap">
+      <span><i>Punkt sprzedaży</i> <b>Łódź, ul. Brzezińska 107</b></span>
+      <span><i>Granit</i> <b>z kopalni w Strzegomiu</b></span>
+    </div>
+  </div>
+</section>
+
+<section class="sek" id="oferta" aria-labelledby="h-oferta">
+  <div class="wrap">
+    <div class="naglowek">
+      <h2 id="h-oferta">Wyroby z granitu</h2>
+      <p>Zajmujemy się wyłącznie granitem: od kostki i krawężników na podjazd i ulicę, po schody i parapety do domu. Każdy wyrób można zamówić w wymiarze dopasowanym do projektu.</p>
+    </div>
+    <div class="siatka">
+      <a class="wyrob" href="#kontakt" data-wyrob="Kostka granitowa"><div class="fot"><img src="img/p-kostka-400.webp" srcset="img/p-kostka-400.webp 400w, img/p-kostka-640.webp 640w" sizes="(max-width:1060px) 46vw, 290px" width="400" height="300" loading="lazy" decoding="async" alt="Kostka granitowa"></div><h3>Kostka granitowa</h3><p>Rozmiary 4/6, 6/8, 8/10 i 15/17: od alejek po place pod ciężki ruch.</p><span class="kol">Kolory: szara, szaro-ruda, czarna</span><span class="dalej">Zapytaj o cenę</span></a>
+      <a class="wyrob" href="#kontakt" data-wyrob="Krawężniki granitowe"><div class="fot"><img src="img/p-krawezniki-400.webp" srcset="img/p-krawezniki-400.webp 400w, img/p-krawezniki-640.webp 640w" sizes="(max-width:1060px) 46vw, 290px" width="400" height="300" loading="lazy" decoding="async" alt="Krawężniki granitowe"></div><h3>Krawężniki granitowe</h3><p>Uliczne, najazdowe, mostowe i łukowe. Wymiary także na zamówienie.</p><span class="kol">Kolory: szare</span><span class="dalej">Zapytaj o cenę</span></a>
+      <a class="wyrob" href="#kontakt" data-wyrob="Oporniki granitowe"><div class="fot"><img src="img/p-oporniki-400.webp" srcset="img/p-oporniki-400.webp 400w, img/p-oporniki-640.webp 640w" sizes="(max-width:1060px) 46vw, 290px" width="400" height="300" loading="lazy" decoding="async" alt="Oporniki granitowe"></div><h3>Oporniki granitowe</h3><p>Cięte lub surowo-łupane obrzeża, które trzymają kostkę w ryzach.</p><span class="kol">Kolory: szare</span><span class="dalej">Zapytaj o cenę</span></a>
+      <a class="wyrob" href="#kontakt" data-wyrob="Płyty i płytki granitowe"><div class="fot"><img src="img/p-plyty-400.webp" srcset="img/p-plyty-400.webp 400w, img/p-plyty-640.webp 640w" sizes="(max-width:1060px) 46vw, 290px" width="400" height="300" loading="lazy" decoding="async" alt="Płyty i płytki"></div><h3>Płyty i płytki</h3><p>Na taras, balkon, podjazd i do wnętrz. Płomieniowane, polerowane, szczotkowane.</p><span class="kol">Kolory: szare, czarne</span><span class="dalej">Zapytaj o cenę</span></a>
+      <a class="wyrob" href="#kontakt" data-wyrob="Schody granitowe"><div class="fot"><img src="img/p-schody-400.webp" srcset="img/p-schody-400.webp 400w, img/p-schody-640.webp 640w" sizes="(max-width:1060px) 46vw, 290px" width="400" height="300" loading="lazy" decoding="async" alt="Schody granitowe"></div><h3>Schody granitowe</h3><p>Stopnie do wnętrz i na zewnątrz, odporne na pogodę i ścieranie.</p><span class="kol">Kolory: szare</span><span class="dalej">Zapytaj o cenę</span></a>
+      <a class="wyrob" href="#kontakt" data-wyrob="Parapety granitowe"><div class="fot"><img src="img/p-parapety-400.webp" srcset="img/p-parapety-400.webp 400w, img/p-parapety-533.webp 533w" sizes="(max-width:1060px) 46vw, 290px" width="400" height="300" loading="lazy" decoding="async" alt="Parapety granitowe"></div><h3>Parapety granitowe</h3><p>Polerowane na wysoki połysk. Głębokość, długość i grubość na wymiar.</p><span class="kol">Kolory: szare, szaro-rude, czarne</span><span class="dalej">Zapytaj o cenę</span></a>
+      <a class="wyrob" href="#kontakt" data-wyrob="Kamień ogrodowy"><div class="fot"><img src="img/p-ogrodowy-400.webp" srcset="img/p-ogrodowy-400.webp 400w, img/p-ogrodowy-640.webp 640w" sizes="(max-width:1060px) 46vw, 290px" width="400" height="300" loading="lazy" decoding="async" alt="Kamień ogrodowy"></div><h3>Kamień ogrodowy</h3><p>Grys i otoczaki: przepuszczają wodę, chronią korzenie, ograniczają chwasty.</p><span class="kol">Kolory: biały, szary, szaro-rudy, czarny</span><span class="dalej">Zapytaj o cenę</span></a>
+      <a class="wyrob" href="#kontakt" data-wyrob="Kamień murowy"><div class="fot"><img src="img/p-murowy-400.webp" srcset="img/p-murowy-400.webp 400w, img/p-murowy-638.webp 638w" sizes="(max-width:1060px) 46vw, 290px" width="400" height="300" loading="lazy" decoding="async" alt="Kamień murowy"></div><h3>Kamień murowy</h3><p>Na mury oporowe, ogrodzenia, słupki, skarpy i murki w ogrodzie.</p><span class="kol">Kolory: szary</span><span class="dalej">Zapytaj o cenę</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="sek sek-j" id="kostka" aria-labelledby="h-kostka">
+  <div class="wrap kostka">
+    <div class="zdj"><img src="img/kostka-duza-720.webp" srcset="img/kostka-duza-560.webp 560w, img/kostka-duza-720.webp 720w" sizes="(max-width:860px) 92vw, 560px" width="720" height="547" loading="lazy" decoding="async" alt="Kostka granitowa ułożona w łuki na placu"></div>
+    <div>
+      <h2 id="h-kostka">Którą kostkę wybrać?</h2>
+      <p style="margin-top:16px;color:var(--szary);font-size:18px;max-width:50ch">Rozmiar kostki zależy od tego, co będzie po niej jeździć. Wydajność to orientacyjna powierzchnia, którą ułożysz z tony kostki.</p>
+      <div class="tab" role="table" aria-label="Rozmiary kostki granitowej">
+        <div class="wiersz" role="row"><span class="r" role="cell">4/6</span><span class="z" role="cell">Chodniki i alejki dla ruchu pieszego</span><span class="w" role="cell">7,8 m²<small>z tony</small></span></div>
+        <div class="wiersz" role="row"><span class="r" role="cell">6/8</span><span class="z" role="cell">Samochody osobowe i dostawcze, dojazd do garażu, dojścia, alejki</span><span class="w" role="cell">6,4 m²<small>z tony</small></span></div>
+        <div class="wiersz" role="row"><span class="r" role="cell">8/10</span><span class="z" role="cell">Wszystkie rodzaje samochodów, rynki, typowa kostka drogowa</span><span class="w" role="cell">5,0 m²<small>z tony</small></span></div>
+        <div class="wiersz" role="row"><span class="r" role="cell">15/17</span><span class="z" role="cell">Ekstremalne obciążenia: ciężarówki, duże place, murki, obrzeża</span><span class="w" role="cell">2,7 m²<small>z tony</small></span></div>
+      </div>
+      <p class="tab-op">Kolory kostki: szara, szaro-ruda i czarna.</p>
+      <a class="btn btn-c" href="#kontakt" data-wyrob="Kostka granitowa" style="margin-top:26px">Zapytaj o kostkę</a>
+    </div>
+  </div>
+</section>
+
+<section class="sek blok" id="strzegom" aria-labelledby="h-blok">
+  <div class="wrap blok-siatka">
+    <div class="zdj"><img src="img/pila-638.webp" srcset="img/pila-480.webp 480w, img/pila-638.webp 638w" sizes="(max-width:860px) 92vw, 40vw" width="638" height="1000" loading="lazy" decoding="async" alt="Piła tnąca blok granitu na płyty"></div>
+    <div>
+      <h2 id="h-blok">Od bloku skalnego do gotowego krawężnika</h2>
+      <p class="l">Granit pochodzi z kopalni w Strzegomiu. Bloki są cięte, łupane i obrabiane na maszynach, a gotowe wyroby jadą prosto pod wskazany adres. Krawężniki wykonujemy zgodnie z normą PN-EN 1343, a do dostawy dołączamy deklarację zgodności.</p>
+      <ul class="etapy">
+        <li><b>Strzegom</b><span>Wydobycie granitu i obróbka: cięcie, łupanie, płomieniowanie, polerowanie.</span></li>
+        <li><b>Łódź</b><span>Punkt sprzedaży przy ul. Brzezińskiej 107, gdzie można zobaczyć wyroby na żywo.</span></li>
+        <li><b>Cała Polska</b><span>Dostawa firmami przewozowymi pod adres budowy, także dla firm i inwestycji drogowych.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sek" id="wykonczenia" aria-labelledby="h-wyk">
+  <div class="wrap">
+    <div class="naglowek">
+      <h2 id="h-wyk">Ten sam kamień, różne wykończenie</h2>
+      <p>Sposób obróbki powierzchni decyduje o tym, gdzie granit sprawdzi się najlepiej: w salonie, na schodach przed domem czy na podjeździe.</p>
+    </div>
+    <div class="wyk">
+      <figure><div class="tx"><img src="img/t-poler-320.webp" width="320" height="320" loading="lazy" decoding="async" alt="Polerowana krawędź płyty granitowej"></div><h3>Polerowane</h3><p>Gładka powierzchnia z lustrzanym połyskiem i efektem mokrego kamienia. Do wnętrz i na parapety.</p></figure>
+      <figure><div class="tx"><img src="img/t-plomien-400.webp" width="400" height="340" loading="lazy" decoding="async" alt="Płomieniowana posadzka granitowa"></div><h3>Płomieniowane</h3><p>Chropowate i antypoślizgowe. Na tarasy, balkony, schody zewnętrzne i podjazdy.</p></figure>
+      <figure><div class="tx"><img src="img/t-ciety-400.webp" width="400" height="352" loading="lazy" decoding="async" alt="Cięte elementy granitowe"></div><h3>Cięte</h3><p>Równe, gładkie boki i proste fugi. Oporniki i krawężniki cięte, płyty na wymiar.</p></figure>
+      <figure><div class="tx"><img src="img/t-lupana-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="Surowo-łupana kostka granitowa"></div><h3>Surowo-łupane</h3><p>Naturalna, nieregularna faktura skały. Kostka, obrzeża w ogrodzie, murki.</p></figure>
+    </div>
+    <p class="wyk-op">Płytki dostępne są też w wersji szczotkowanej: szorstkiej i antypoślizgowej, o nieco łagodniejszym charakterze niż płomieniowana.</p>
+  </div>
+</section>
+
+<section class="sek sek-j" id="realizacje" aria-labelledby="h-real">
+  <div class="wrap gal-gora">
+    <div>
+      <h2 id="h-real">Granit na miejscu</h2>
+      <p>Podjazdy, ścieżki, schody i tarasy. Kliknij zdjęcie, żeby je powiększyć.</p>
+    </div>
+    <div class="strz"><span class="licz" id="licz">1 / 16</span><button type="button" id="wstecz" aria-label="Poprzednie zdjęcia" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 4l-8 8 8 8"/></svg></button><button type="button" id="dalej" aria-label="Następne zdjęcia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 4l8 8-8 8"/></svg></button></div>
+  </div>
+  <div class="pas-wrap">
+    <div class="pas" id="pas">
+      <button type="button" data-big="img/g01-1400.webp" aria-label="Powiększ: Podjazd z kostki granitowej"><img src="img/g01-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Podjazd z kostki granitowej"></button>
+      <button type="button" data-big="img/g02-1000.webp" aria-label="Powiększ: Ścieżka z płyt i kostki granitowej"><img src="img/g02-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Ścieżka z płyt i kostki granitowej"></button>
+      <button type="button" data-big="img/g03-1000.webp" aria-label="Powiększ: Schody granitowe wewnętrzne"><img src="img/g03-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Schody granitowe wewnętrzne"></button>
+      <button type="button" data-big="img/g04-1400.webp" aria-label="Powiększ: Kostka granitowa przy domu"><img src="img/g04-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Kostka granitowa przy domu"></button>
+      <button type="button" data-big="img/g05-1000.webp" aria-label="Powiększ: Ścieżka z płyt granitowych w ogrodzie"><img src="img/g05-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Ścieżka z płyt granitowych w ogrodzie"></button>
+      <button type="button" data-big="img/g06-1000.webp" aria-label="Powiększ: Taras z płyt granitowych"><img src="img/g06-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Taras z płyt granitowych"></button>
+      <button type="button" data-big="img/g07-1000.webp" aria-label="Powiększ: Opornik granitowy przy rabacie"><img src="img/g07-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Opornik granitowy przy rabacie"></button>
+      <button type="button" data-big="img/g08-1000.webp" aria-label="Powiększ: Kostka granitowa ułożona w łuki"><img src="img/g08-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Kostka granitowa ułożona w łuki"></button>
+      <button type="button" data-big="img/g09-1280.webp" aria-label="Powiększ: Schody granitowe"><img src="img/g09-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Schody granitowe"></button>
+      <button type="button" data-big="img/g10-1000.webp" aria-label="Powiększ: Wyroby granitowe na paletach"><img src="img/g10-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Wyroby granitowe na paletach"></button>
+      <button type="button" data-big="img/g11-1000.webp" aria-label="Powiększ: Kamień ogrodowy"><img src="img/g11-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Kamień ogrodowy"></button>
+      <button type="button" data-big="img/g12-1000.webp" aria-label="Powiększ: Stopnie granitowe na zewnątrz"><img src="img/g12-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Stopnie granitowe na zewnątrz"></button>
+      <button type="button" data-big="img/g13-1000.webp" aria-label="Powiększ: Płyty granitowe w ogrodzie"><img src="img/g13-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Płyty granitowe w ogrodzie"></button>
+      <button type="button" data-big="img/g14-927.webp" aria-label="Powiększ: Posadzka granitowa przy wejściu"><img src="img/g14-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Posadzka granitowa przy wejściu"></button>
+      <button type="button" data-big="img/g15-1000.webp" aria-label="Powiększ: Krawężniki granitowe na placu"><img src="img/g15-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Krawężniki granitowe na placu"></button>
+      <button type="button" data-big="img/g16-1000.webp" aria-label="Powiększ: Wyroby granitowe na placu składowym"><img src="img/g16-640.webp" width="640" height="480" loading="lazy" decoding="async" alt="Wyroby granitowe na placu składowym"></button>
+    </div>
+  </div>
+</section>
+
+<section class="sek" id="podstrony" aria-labelledby="h-pod">
+  <div class="wrap mapa">
+    <div>
+      <h2 id="h-pod">Każdy wyrób z własną podstroną</h2>
+      <p class="l">Ten podgląd to jedna strona. Docelowo każdy wyrób dostanie osobną zakładkę z pełnym opisem, wymiarami, kolorami i zdjęciami, napisaną pod to, czego klienci szukają w Google.</p>
+      <ul class="co">
+        <li>tytuł i opis każdej podstrony pod konkretne wyszukiwanie</li>
+        <li>dane firmy i oferty czytelne dla Google i asystentów AI</li>
+        <li>szybkie ładowanie i wygodny widok na telefonie</li>
+      </ul>
+    </div>
+    <div class="drzewo" aria-label="Planowane podstrony">
+      <div class="gl"><b>Strona główna</b><code>mdgranit.pl</code></div>
+      <div><b>Kostka granitowa</b><code>/kostka-granitowa</code></div>
+      <div><b>Krawężniki granitowe</b><code>/krawezniki-granitowe</code></div>
+      <div><b>Oporniki granitowe</b><code>/oporniki-granitowe</code></div>
+      <div><b>Płyty i płytki granitowe</b><code>/plytki-granitowe</code></div>
+      <div><b>Schody granitowe</b><code>/schody-granitowe</code></div>
+      <div><b>Parapety granitowe</b><code>/parapety-granitowe</code></div>
+      <div><b>Kamień ogrodowy</b><code>/kamien-ogrodowy</code></div>
+      <div><b>Kamień murowy</b><code>/kamien-murowy</code></div>
+      <div><b>Realizacje</b><code>/realizacje</code></div>
+      <div><b>Kontakt i dojazd</b><code>/kontakt</code></div>
+    </div>
+  </div>
+</section>
+
+<section class="sek sek-j" id="kontakt" aria-labelledby="h-kontakt">
+  <div class="wrap kontakt">
+    <div>
+      <h2 id="h-kontakt">Zapytaj o wycenę</h2>
+      <p style="margin-top:16px;color:var(--szary);font-size:18px;max-width:40ch">Napisz, czego potrzebujesz i dokąd ma jechać dostawa. Możesz dołączyć zdjęcie miejsca, szkic albo wymiary.</p>
+      <div class="dane">
+        <div><small>Telefon</small><a class="duzy" href="tel:+48537170170">537 170 170</a></div>
+        <div><small>E-mail</small><a href="mailto:biuro@mdgranit.pl">biuro@mdgranit.pl</a></div>
+        <div><small>Punkt sprzedaży</small><b>ul. Brzezińska 107, 92-118 Łódź</b></div>
+        <div><small>Dane firmy</small><p>DRESLER DESIGN Mikołaj Dresler<br>ul. Grabińska 28A, 92-780 Łódź<br>NIP 726-243-45-88</p></div>
+      </div>
+      <div class="mapka" id="mapka" data-src="https://www.google.com/maps?q=Brzezi%C5%84ska+107,+92-118+%C5%81%C3%B3d%C5%BA&amp;z=15&amp;output=embed"><span>Mapa dojazdu</span></div>
+    </div>
+    <form class="zap" id="zap" novalidate>
+      <h3>Formularz zapytania</h3>
+      <p class="opis">Odpowiadamy z wyceną i terminem dostawy.</p>
+      <div class="pola">
+        <div class="pole"><label for="f-imie">Imię i nazwisko lub firma</label><input id="f-imie" name="imie" autocomplete="name" required></div>
+        <div class="pole"><label for="f-tel">Telefon</label><input id="f-tel" name="tel" type="tel" autocomplete="tel" inputmode="tel" required></div>
+        <div class="pole"><label for="f-mail">E-mail</label><input id="f-mail" name="mail" type="email" autocomplete="email"></div>
+        <div class="pole"><label for="f-wyrob">Wyrób</label>
+          <select id="f-wyrob" name="wyrob">
+            <option>Kostka granitowa</option><option>Krawężniki granitowe</option><option>Oporniki granitowe</option><option>Płyty i płytki granitowe</option><option>Schody granitowe</option><option>Parapety granitowe</option><option>Kamień ogrodowy</option><option>Kamień murowy</option><option>Kilka wyrobów / inne</option>
+          </select></div>
+        <div class="pole c"><label for="f-opis">Ilość, wymiary, kolor</label><textarea id="f-opis" name="opis" placeholder="np. kostka 8/10 szara, ok. 120 m², obrzeże z opornika ciętego"></textarea></div>
+        <div class="pole"><label for="f-miejsce">Miejscowość dostawy</label><input id="f-miejsce" name="miejsce" autocomplete="address-level2"></div>
+        <div class="pole"><label for="f-plik">Zdjęcie, szkic lub wymiary</label>
+          <div class="plik" id="plik"><input id="f-plik" name="pliki" type="file" accept="image/*,.pdf" multiple><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 23v5h24v-5"/><path d="M16 21V5M10 11l6-6 6 6"/></svg><span><b>Dodaj pliki</b><small>JPG, PNG lub PDF</small></span></div>
+          <div class="lista" id="lista" aria-live="polite"></div>
+        </div>
+        <label class="zgoda"><input type="checkbox" required> <span>Zgadzam się na kontakt w sprawie zapytania. Dane służą wyłącznie do przygotowania wyceny.</span></label>
+        <div class="wyslij"><button class="btn" type="submit">Wyślij zapytanie</button></div>
+        <div class="info" id="info" role="status">To wersja pokazowa formularza. Na docelowej stronie zapytanie razem z plikami trafi na biuro@mdgranit.pl, a klient dostanie potwierdzenie mailem.</div>
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap">
+    <div class="st-siatka">
+      <div><a class="logo" href="#" aria-label="MD Granit"><svg viewBox="0 0 282 118" role="img" aria-label="MD Granit"><defs><mask id="ciecie2" maskUnits="userSpaceOnUse"><rect width="282" height="118" fill="#fff"/><rect x="30" y="49" width="260" height="20" fill="#000"/></mask></defs><text transform="translate(25 117) rotate(-90)" font-family="Hanken,Arial,sans-serif" font-weight="300" font-size="31" textLength="116" lengthAdjust="spacingAndGlyphs" fill="currentColor">GRANIT</text><g mask="url(#ciecie2)"><path fill="currentColor" d="M38 1H165V117H139V24L115 117H88L64 24V117H38Z"/><path fill="#EF0000" fill-rule="evenodd" d="M178 1H226A54 58 0 0 1 226 117H178ZM209 29V91H222A23 31 0 0 0 222 29Z"/></g></svg></a><p class="o">Wyroby z granitu strzegomskiego. Punkt sprzedaży w Łodzi, dostawa w całej Polsce.</p></div>
+      <div><h4>Oferta</h4><ul><li><a href="#oferta">Kostka granitowa</a></li><li><a href="#oferta">Krawężniki i oporniki</a></li><li><a href="#oferta">Płyty i płytki</a></li><li><a href="#oferta">Schody i parapety</a></li><li><a href="#oferta">Kamień ogrodowy i murowy</a></li></ul></div>
+      <div><h4>Kontakt</h4><ul><li><a href="tel:+48537170170">537 170 170</a></li><li><a href="mailto:biuro@mdgranit.pl">biuro@mdgranit.pl</a></li><li>ul. Brzezińska 107<br>92-118 Łódź</li></ul></div>
+      <div><h4>Firma</h4><ul><li>DRESLER DESIGN</li><li>Mikołaj Dresler</li><li>NIP 726-243-45-88</li></ul></div>
+    </div>
+    <div class="st-dol"><span>© 2026 MD Granit</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=mdgranit.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div>
+  </div>
+</footer>
+
+<div class="mob" id="mob"><a class="btn btn-c" href="tel:+48537170170">Zadzwoń</a><a class="btn" href="#kontakt">Zapytaj o wycenę</a></div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+  <img id="lb-img" alt="">
+  <button class="x" type="button" id="lb-x" aria-label="Zamknij"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+  <button class="p" type="button" id="lb-p" aria-label="Poprzednie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 4l-8 8 8 8"/></svg></button>
+  <button class="n" type="button" id="lb-n" aria-label="Następne"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 4l8 8-8 8"/></svg></button>
+  <div class="ll" id="lb-l"></div>
+</div>
+<script src="app.js" defer></script>
+</body>
+</html>
